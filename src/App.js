@@ -5,7 +5,7 @@ import Camera, {FACING_MODES} from 'react-html5-camera-photo';
 import 'react-html5-camera-photo/build/css/index.css';
  
 import ImagePreview from './ImagePreview'; // source code : ./src/demo/AppWithImagePreview/ImagePreview
- 
+// 5bed70a58c88957
 function App (props) {
   const [dataUri, setDataUri] = useState('');
  
@@ -33,6 +33,7 @@ function App (props) {
           : <Camera onTakePhotoAnimationDone = {handleTakePhotoAnimationDone}
             isFullscreen={isFullscreen}
             idealFacingMode = {FACING_MODES.ENVIRONMENT}
+            isImageMirror = {false}
           />
       }
     </div>
