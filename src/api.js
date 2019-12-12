@@ -10,7 +10,7 @@ const instance = axios.create({
     }
 });
 
-
+// https://ocr.space/OCRAPI
 export const getTextByBase64 = (base64Image) => {
     let data = new FormData();
     data.set('base64Image', base64Image);

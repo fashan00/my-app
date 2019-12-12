@@ -6,7 +6,6 @@ import 'react-html5-camera-photo/build/css/index.css';
 import * as ocr from './api';
 
 import ImagePreview from './ImagePreview'; // source code : ./src/demo/AppWithImagePreview/ImagePreview
-// 5bed70a58c88957
 function App(props) {
   const [dataUri, setDataUri] = useState('');
   const [text, SetText] = useState('Task photo of Words.');
