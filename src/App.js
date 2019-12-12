@@ -9,7 +9,7 @@ import ImagePreview from './ImagePreview'; // source code : ./src/demo/AppWithIm
 // 5bed70a58c88957
 function App(props) {
   const [dataUri, setDataUri] = useState('');
-  const [text, SetText] = useState('Hello');
+  const [text, SetText] = useState('Task photo of Words.');
 
   async function handleTakePhotoAnimationDone(dataUri) {
     console.log('takePhoto', dataUri);
@@ -22,7 +22,7 @@ function App(props) {
 
   function reset() {
     setDataUri('');
-    SetText('Hello');
+    SetText('Task photo of Words.');
   }
 
   const isFullscreen = false;
