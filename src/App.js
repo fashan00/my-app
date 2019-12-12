@@ -32,7 +32,7 @@ function App (props) {
           />
           : <Camera onTakePhotoAnimationDone = {handleTakePhotoAnimationDone}
             isFullscreen={isFullscreen}
-            idealFacingMode = {FACING_MODES.USER}
+            idealFacingMode = {FACING_MODES.ENVIRONMENT}
           />
       }
     </div>
