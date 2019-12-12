@@ -8,7 +8,7 @@ import * as ocr from './api';
 import ImagePreview from './ImagePreview'; // source code : ./src/demo/AppWithImagePreview/ImagePreview
 function App(props) {
   const [dataUri, setDataUri] = useState('');
-  const [text, SetText] = useState('Task photo of Words.');
+  const [text, SetText] = useState('Task photo of Words.'); //http://i.imgur.com/fwxooMv.png
 
   async function handleTakePhotoAnimationDone(dataUri) {
     console.log('takePhoto', dataUri);
